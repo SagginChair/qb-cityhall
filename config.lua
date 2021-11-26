@@ -3,7 +3,7 @@ Config = Config or {}
 Config.CompanyPrice = 25000
 
 Config.Cityhall = {
-    coords = vector3(-552.77, -190.89, 38.22)
+    coords = vector3(-1082.1, -247.49, 37.76)
 }
 
 Config.DriverTest = {
