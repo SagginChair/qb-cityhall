@@ -42,14 +42,14 @@ local inRange = false
 Citizen.CreateThread(function()
     CityhallBlip = AddBlipForCoord(Config.Cityhall.coords)
 
-    SetBlipSprite (CityhallBlip, 487)
+    SetBlipSprite (CityhallBlip, 408)
     SetBlipDisplay(CityhallBlip, 4)
-    SetBlipScale  (CityhallBlip, 0.65)
+    SetBlipScale  (CityhallBlip, 0.95)
     SetBlipAsShortRange(CityhallBlip, true)
-    SetBlipColour(CityhallBlip, 0)
+    SetBlipColour(CityhallBlip, 36)
 
     BeginTextCommandSetBlipName("STRING")
-    AddTextComponentSubstringPlayerName("City Services")
+    AddTextComponentSubstringPlayerName("Job Center")
     EndTextCommandSetBlipName(CityhallBlip)
 end)
 
