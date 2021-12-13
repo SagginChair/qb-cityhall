@@ -112,7 +112,7 @@ RegisterNUICallback('requestId', function(data)
         local idType = data.idType
 
         TriggerServerEvent('qb-cityhall:server:requestId', idTypes[idType])
-        QBCore.Functions.Notify('You have recived your '..idTypes[idType].label..' for $50', 'success', 3500)
+        QBCore.Functions.Notify('You have recived your '..idTypes[idType].label..'', 'success', 3500)
     else
         QBCore.Functions.Notify('This will not work', 'error')
     end

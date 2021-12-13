@@ -81,13 +81,13 @@ $(document).on("click", ".identity-page-block", function(e){
         selectedIdentity = this;
         if (idType == "id_card") {
             $(".request-identity-button").fadeIn(100);
-            $(".request-identity-button").html("<p>Buy $50</p>")
+            $(".request-identity-button").html("<p>Buy</p>")
         } else if (idType == "driver_license") {
             $(".request-identity-button").fadeIn(100);
-            $(".request-identity-button").html("<p>Buy $50</p>")
+            $(".request-identity-button").html("<p>Buy</p>")
         } else if (idType == "weaponlicense") {
             $(".request-identity-button").fadeIn(100);
-            $(".request-identity-button").html("<p>Buy $50</p>")
+            $(".request-identity-button").html("<p>Buy</p>")
         }
     } else if (selectedIdentity == this) {
         $(this).removeClass("identity-selected");
